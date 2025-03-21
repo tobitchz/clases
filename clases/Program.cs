@@ -21,10 +21,11 @@ namespace hello_git
 
 
             Jugador jugador = new Jugador();
-
             jugador.vida = 10;
             jugador.nivel = 43;
             jugador.nombre = "jugador_1";
+
+            Console.WriteLine($"Info del jugador: Nombre: {jugador.nombre}, Nivel {jugador.nivel}, Vida: {jugador.vida}/20");
 
             jugador.Comer();
             jugador.Atacar();
